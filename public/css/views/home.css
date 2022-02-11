@@ -1,0 +1,152 @@
+div.last-visit,
+div.offers{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.price{
+    font-size: 13px;
+    width: 30%;
+    color: black;
+    font-weight: bold;
+}
+
+.discount{
+
+    font-size: 12px;
+    width: 40%;
+    margin: 0 0 0 10px;
+    font-weight: bold;
+}
+
+
+.description{
+    font-size: 12px;
+    font-weight: normal;
+    margin: 1rem 0 0;
+    font-weight: bold;
+}
+
+h3,
+.description{
+    color: black;
+}
+
+.description{
+    display: none;
+
+}
+
+section.banner img{
+    width: 100%;
+}
+
+.product-link {
+    text-decoration: none;
+}
+
+.main-home{
+    width: 90%;
+    margin: 0 auto;
+}
+
+main section article{
+    background-color: #fff;    
+    margin: 10px 0px;
+}
+
+main section article img{
+    width: 100%;
+}
+
+main section article i,
+.discount{
+    color: #39b54a;
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    transition: transform 0.3s ease;
+}
+
+main section article:hover i{
+    transform: rotate(-90deg);
+}
+
+main section article .product-car{
+padding: 1.5rem 1.5rem 1rem;
+} 
+
+main section h3{
+    margin: 20px 0px;
+}
+
+
+article div.main-article{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 1.5rem 1.5rem 1rem;
+}
+.discount{
+    margin: 0 0 0 30px;
+}
+
+/*RESPONSIVE*/
+
+@media (min-width: 361px){
+
+
+
+
+    main section div.products{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    main section div.products article{
+        width: 45%;
+    }
+    main section div.products article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .description{
+        display: block;
+        opacity: 0;
+        transition: opacity 0.3s linear;
+    }
+
+    article:hover .description{
+        display: block;
+        opacity: 1;
+    }
+ 
+}
+
+@media (min-width: 769px){
+    main section div.products article{
+        width: 22%;
+    }
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}

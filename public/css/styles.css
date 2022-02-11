@@ -1,0 +1,7 @@
+@import '/css/variables.css';
+@import '/css/normalize.css';
+@import '/css/partials/header.css';
+@import '/css/partials/footer.css';
+@import '/css/views/home.css';
+@import '/css/views/login.css';
+@import '/css/views/register.css';

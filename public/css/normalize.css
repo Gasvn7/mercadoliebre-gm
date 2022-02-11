@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--roboto);
+    background-color: var(--gris-claro);
+}
+
+html{
+    font-size: 62.5%;
+}
+
+h3{
+    font-size: var(--title);
+}
+
+p{
+    font-size: var(--text);
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    gap: 2em
+}
+
+

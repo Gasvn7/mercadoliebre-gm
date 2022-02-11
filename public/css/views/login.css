@@ -1,0 +1,41 @@
+.main-login{
+    text-decoration: none;
+    width: 90%;
+    margin: 0 auto;
+    width: 40%;
+}
+
+/*--------------------------------------Botones y Form-------------------------------------*/
+
+main .loginingreso{
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.buttonlogin{
+    color: #FFF;
+    background:  #1259C3;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.buttonlogin{
+    transition: background-color 0.5s ease;
+}
+
+.buttonlogin:hover{
+    background-color: #03264C;
+}

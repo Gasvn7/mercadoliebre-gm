@@ -1,0 +1,164 @@
+/*------------------------------------------Header---------------------------------------------------*/
+
+header div.top-header p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+header nav{
+    font-size: var(--text-md);
+}
+
+header{
+    background-color: #EAC926;
+}
+
+.flex-row{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+header .logo{
+    display: block;
+    flex-grow: 1;
+    width: 250px;
+}
+
+header .top-header{
+    flex-wrap: wrap;
+    padding: 10px;
+    align-items: center;
+
+}
+
+header .top-header p{
+    flex-grow: 1;
+    text-align: center;
+
+}
+
+header div.logo{
+    padding: 10px;
+}
+
+header nav{
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+/*------------------------------------------Searcher---------------------------------------------------*/
+
+header .form{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    font-size: 11px;
+    flex-grow: 3;
+}
+
+.form input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    flex-grow: 1;
+}
+
+.fa-search{
+    border: none;
+    padding: 11px;
+    background-color: rgb(226, 226, 226);
+    color: #666;
+    border-radius: 0 5px 5px 0;
+}
+
+.form button{
+    display: flex;
+    border: none;
+    border-left: 1px solid rgb(226, 226, 226);
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    
+}
+
+header .form{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    font-size: 11px;
+    
+}
+header .form .input{
+    background-color: #FFF;
+    outline: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: inherit;
+}
+
+header .form .submit{
+    background-color: #FFF;
+    color: #666;
+}
+
+
+
+/*------------------------------------------Burger Menu---------------------------------------------------*/
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+/*------------------------------------------Responsive---------------------------------------------------*/
+
+@media (max-width:361px){
+    header ul li a{
+        display: none;
+    }
+}
+
+@media (min-width: 362px){
+    header nav{
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: space-around;
+    }
+    header nav ul{
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+        gap: 2rem;
+    }
+    div.burger-menu{
+        display: none;
+    }
+}
+
+@media (min-width: 769px){
+    header nav{
+        flex-direction: row;
+    }
+}
